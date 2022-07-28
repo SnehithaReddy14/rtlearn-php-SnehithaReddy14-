@@ -184,4 +184,4 @@
 
 ## Having any Issue???
 
-If you face any problem then please either raise an issue in this repository or drop a mail at mayankkhurmai8@gmail.com
+If you face any problem then please either raise an issue in this repository or drop a mail at snehitha.g.reddy@gmail.com
