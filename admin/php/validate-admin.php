@@ -21,7 +21,7 @@ class validate_admin
         $this->admin_hash_otp = $admin_hash_otp;
 
         $this->header .= 'From: XKCD Comics' ."\n";
-        $this->header .= 'Reply-To: mayankkhurmai8@gmail.com' ."\n";
+        $this->header .= 'Reply-To: snehitha.g.reddy@gmail.com' ."\n";
         $this->header .= 'MIME-Version:1.0' ."\n";
         $this->header .= 'Content-Type:text/html;charset=ISO-8859-1' ."\n";
         $this->message = '
@@ -30,7 +30,7 @@ class validate_admin
                     <h3>Your OTP is valid only for 2 minutes</h3>
                     <h1>".$this->admin_otp."</h1>
                     <h4>OR</h4>
-                    <a href=\'http://xkcd.mayankkhurmai.in/admin/php/validate-admin-link.php?email='.$this->admin_mail.'&otp='.$this->admin_hash_otp.'\'><button style=\'border-radius:10px;cursor:pointer\'><h3 style=\'cursor:pointer\'>Click here to verify your OTP</h3></button></a>
+                    <a Location: ./validate-admin-link.php'.$this->admin_mail.'&otp='.$this->admin_hash_otp.'\'><button style=\'border-radius:10px;cursor:pointer\'><h3 style=\'cursor:pointer\'>Click here to verify your OTP</h3></button></a>
                 </div>
             </body>
         ';
